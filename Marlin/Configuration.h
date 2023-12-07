@@ -597,14 +597,14 @@
   #if ENABLED(PID_PARAMS_PER_HOTEND)
     // Specify up to one value per hotend here, according to your setup.
     // If there are fewer values, the last one applies to the remaining hotends.
-    #define DEFAULT_Kp_LIST {  28.72,  28.72 }
-    #define DEFAULT_Ki_LIST {   2.62,   2.62 }
-    #define DEFAULT_Kd_LIST {  78.81,  78.81 }
+    #define DEFAULT_Kp_LIST {  12.34,  12.34 }
+    #define DEFAULT_Ki_LIST {   0.72,   0.72 }
+    #define DEFAULT_Kd_LIST {  53.08,  53.08 }
   #else
     // Ender 3 v2
-    #define DEFAULT_Kp  28.72
-    #define DEFAULT_Ki   2.62
-    #define DEFAULT_Kd  78.81
+    #define DEFAULT_Kp  12.34
+    #define DEFAULT_Ki   0.72
+    #define DEFAULT_Kd  53.08
   #endif
 #endif // PIDTEMP
 
